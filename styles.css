@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	position: absolute;
+	color: #333333;
+	font-family: 'Space Mono', monospace;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	height: 190px;
+	line-height: 94.78px;
+	letter-spacing: -0.035em;
+	top: 265px;
+	left: 736px;
+	width: 586px;
+}
+p {
+	color: #333333;
+	font-family: 'Space Mono', monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	height: 108px;
+	line-height: 35.54px;
+	letter-spacing: -0.035em;
+	position: absolute;
+	top: 491px;
+  left: 736px;
+	width: 381px;
+}
+
+.button {
+	background: #333333;
+	position: absolute;
+	width: 216px;
+	height: 68px;
+	left: 740px;
+	top: 663px;
+}
+.button > div {
+	color: #FFF;
+	font-family: 'Space Mono', monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	height: 21px;
+	line-height: 20.73px;
+	letter-spacing: -0.035em;
+	margin-top: 24px;
+	margin-left: 43px;
+	text-decoration: none;
+	width: 130px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.header {
+	color: #333;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 24px;
+	height: 25px;
+	letter-spacing: -0.08em;
+	line-height: 25.18px;
+	margin: 40px 1230px 0 77px;
+	width: 133px;
+}
+
+.scarecrow-img {
+	position: absolute;
+	left: 5.35%;
+	right: 57.21%;
+	top: 24.54%;
+	bottom: 37.11%;
+}
