@@ -1,6 +1,28 @@
-body {
-  font-family: "Poppins", sans-serif;
+* {
 	box-sizing: border-box;
+	margin: 0;
+}
+
+/* --------- HEADER ---------- */
+.header {
+	color: #333;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 24px;
+	height: 25px;
+	letter-spacing: -0.08em;
+	line-height: 25.18px;
+	position: absolute;
+	top: 40px;
+	left: 77px;
+	width: 150px;
+}
+
+/* --------- BODY ---------- */
+.scarecrow-img {
+	position: absolute;
+	left: 77px;
+	top: 265px;
 }
 
 h1 {
@@ -17,8 +39,9 @@ h1 {
 	left: 736px;
 	width: 586px;
 }
-p {
-	color: #333333;
+
+.main-text {
+	color: #4F4F4F;
 	font-family: 'Space Mono', monospace;
 	font-size: 24px;
 	font-style: normal;
@@ -28,54 +51,107 @@ p {
 	letter-spacing: -0.035em;
 	position: absolute;
 	top: 491px;
-  left: 736px;
+	left: 736px;
 	width: 381px;
 }
 
 .button {
+	color: #FFF;
 	background: #333333;
+	font-family: 'Space Mono', monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20.73px;
+	letter-spacing: -0.035em;
 	position: absolute;
 	width: 216px;
 	height: 68px;
 	left: 740px;
 	top: 663px;
-}
-.button > div {
-	color: #FFF;
-	font-family: 'Space Mono', monospace;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 700;
-	height: 21px;
-	line-height: 20.73px;
-	letter-spacing: -0.035em;
-	margin-top: 24px;
-	margin-left: 43px;
 	text-decoration: none;
-	width: 130px;
 }
 
-.grid-container {
-	display: grid;
-	grid-template-columns: auto auto;
+a {
+	color: #FFF;
+	text-decoration: none;
 }
 
-.header {
-	color: #333;
-	font-family: 'Inconsolata', monospace;
-	font-weight: 700;
-	font-size: 24px;
-	height: 25px;
-	letter-spacing: -0.08em;
-	line-height: 25.18px;
-	margin: 40px 1230px 0 77px;
-	width: 133px;
-}
+/* --------- FOOTER ---------- */
 
-.scarecrow-img {
+.footer {
+	color:#BDBDBD;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	height: 14px;
+	letter-spacing: 0.03em;
+	line-height: 17.07px;
 	position: absolute;
-	left: 5.35%;
-	right: 57.21%;
-	top: 24.54%;
-	bottom: 37.11%;
+	top: 1039px;
+	/* left: 50%; */
+	text-align: center;
+	width: 100%;
+}
+
+.username {
+	color: #BDBDBD;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media only screen and ( max-width: 375px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+	}
+/* --------- HEADER QUERY ---------- */
+	.header {
+		top: 20px;
+		left: 24px;
+	}
+
+	/* --------- BODY QUERY ---------- */
+	.scarecrow-img {
+		left: 44px;
+		top: 109px;
+		width: 286.83px;
+		height: 220.35px;
+	}
+
+	h1 {
+		font-size: 48px;
+		height: 142px;
+		line-height: 71.09px;
+		top: 407px;
+		left: 24px;
+		width: 350px;
+	}
+
+	.main-text {
+		font-size: 18px;
+		height: 81px;
+		line-height: 26.66px;
+		letter-spacing: -0.035em;
+		top: 579px;
+		left: 23px;
+		width: 328px;
+	}
+
+	.button {
+		left: 24px;
+		top: 726px;
+	}
+
+/* --------- FOOTER QUERY ---------- */
+	.footer {
+		height: 17px;
+		position: absolute;
+		top: 908px;
+		left: 12.5px;
+		text-align: center;
+		width: 350px;
+	}
 }
